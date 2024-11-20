@@ -53,10 +53,6 @@ h1 {
   writing-mode: vertical-lr;
 }
 
-.voice:not(:active) {
-  text-shadow: 0 -5ex 1ex;
-}
-
 .rite {
   margin-left: auto;
   transform: rotate(-18deg);
@@ -69,16 +65,4 @@ h1 {
 
 .tear {
   transform: rotate(18deg);
-}
-
-.echo {
-  display: flex;
-  flex-flow: column;
-  font: calc(2em / 3) monospace;
-}
-
-.belay {
-  contain: layout;
-  margin: auto;
-  transform: rotate(9deg);
 }
